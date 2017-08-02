@@ -28,6 +28,14 @@ button {
   padding: 0;
 }
 
+button:hover {
+  color: #63CEC2;
+}
+
+a:hover {
+  color: #63CEC2;
+}
+
 input {
   display: block;
   background-color: white;
@@ -41,19 +49,67 @@ input {
   padding-left: 8px;
 }
 
-
-
 h2 {
   color: #F7F8F9;
   font-weight: lighter;
   text-align: center;
   margin: 0;
   margin-top: 15px;
+  font-variant-caps: all-petite-caps;
+  font-size: 35px;
 }
 
-h4 {
+#profileh2 {
+  margin-top: 0;
+}
+
+h3 {
+  color: #F7F8F9;
+  font-weight: lighter;
+  text-align: center;
+  margin: 0;
+  margin-top: 5px;
+}
+
+a {
+  display: block;
   color: #CCC;
   font-size: 12px;
-  margin-top: 50px;
+  margin-top: 40px;
   text-align: center;
+}
+
+#edit {
+  margin-top: 75px;
+}
+
+#profileContainer {
+  background-color: rgba(67, 75, 89, 0.7);
+  width: 45%;
+  margin: 0 auto;
+  height: 280px;
+  border-radius: 8px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+#infoContainer {
+  margin-top: 20px;
+}
+
+span {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 10px;
+  margin-left: 40px;
+}
+
+img {
+  display: inline-block;
+  width: 180px;
+  border-radius: 8px;
+  float: left;
+  margin-left: 8px;
 }

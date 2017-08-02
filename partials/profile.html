@@ -1,5 +1,17 @@
 <!-- This is the profile page partial. Add HTML here. -->
-<p> Email: {{userDetails.email}} </p>
-<p> Name: {{userDetails.name}} </p>
-<p> Location: {{userDetails.location}} </p>
-<p> Phone Number: {{userDetails.phone}} </p>
+<div id = "profileContainer">
+  <h2 id = "profileh2"> Profile </h2>
+  <h3> Welcome, Person! </h3>
+  <div id = "infoContainer">
+    <img src = "../images/taylorswift.jpg"/>
+    <span> Email: {{userDetails.email}} </span>
+    <br>
+    <span> Name: {{userDetails.name}} </span>
+    <br>
+    <span> Location: {{userDetails.location}} </span>
+    <br>
+    <span> Phone Number: {{userDetails.phone}} </span>
+  </div>
+
+  <a id = "edit"> Edit Profile </a>
+</div>
