@@ -73,10 +73,10 @@ h3 {
 
 a {
   display: block;
-  color: #CCC;
   font-size: 12px;
   margin-top: 40px;
   text-align: center;
+  color: white;
 }
 
 #edit {
